@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="sites/styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>&#160EMOTYPE&#160</h1>
+    </div>
+    <div class="about">Welcome to EMOTYPE, a sentiment analysis tool designed to help users gain
+        insights into the emotional tone of their text.<br>EMOTYPE utilizes advanced natural language
+        processing algorithms to analyze textual content and provide sentiment analysis results.<br>The tool
+        empowers you to understand the underlying sentiment expressed in your content.<br>By analyzing text for
+        happiness, sadness, surprise, and fear, EMOTYPE
+        offers valuable insights that can inform communication
+        efforts!
+    </div>
+    <div class="line"></div>
+    <div class="container1">
+        <div class="container">
+            <h2>TEXT INPUT</h2>
+            <textarea id="input-text" placeholder="Enter your text here..."></textarea>
+            <button onclick="analyzeSentiment()" id="analyze">Analyze</button>
+        </div>
+        <div class="container2">
+            <h2>RESULTS</h2>
+            <div id="results"></div>
+            <button onclick="clearResults()" id="clear">Clear</button>
+            <script src="sites/script.js"></script>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
